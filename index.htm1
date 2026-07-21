@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sky2 Mobile</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111827;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+color:#fff;
+}
+
+.card{
+width:360px;
+background:#1f2937;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.4);
+text-align:center;
+}
+
+.header{
+background:url("background.jpg") center/cover;
+padding:40px 20px;
+}
+
+.logo{
+width:120px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+h1{
+margin-top:15px;
+font-size:30px;
+}
+
+p{
+color:#cbd5e1;
+margin-top:5px;
+}
+
+.links{
+padding:25px;
+}
+
+.btn{
+display:block;
+text-decoration:none;
+margin:12px 0;
+padding:15px;
+border-radius:12px;
+font-size:18px;
+font-weight:bold;
+color:white;
+transition:.3s;
+}
+
+.whatsapp{
+background:#25D366;
+}
+
+.instagram{
+background:#E1306C;
+}
+
+.snapchat{
+background:#FFFC00;
+color:#000;
+}
+
+.location{
+background:#2563EB;
+}
+
+.phone{
+background:#374151;
+}
+
+.btn:hover{
+transform:scale(1.03);
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<div class="header">
+<img class="logo" src="logo.jpg">
+<h1>Sky2 Mobile</h1>
+<p>iPhone & Mobile Service</p>
+</div>
+
+<div class="links">
+
+<a class="btn whatsapp" href="https://wa.me/9647501572787">
+WhatsApp 07501572787
+</a>
+
+<a class="btn phone" href="tel:+9647501693900">
+Call 07501693900
+</a>
+
+<a class="btn instagram" href="https://www.instagram.com/sky_2mobile?igsh=ZGRkaHprZWhocnhi&utm_source=qr">
+Instagram
+</a>
+
+<a class="btn snapchat" href="https://snapchat.com/t/JZjtEu4k">
+Snapchat
+</a>
+
+<a class="btn location" href="https://maps.apple/p/KgMviK9tfsK01T">
+Location
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
